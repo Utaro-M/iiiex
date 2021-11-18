@@ -16,15 +16,15 @@ body {
   margin: 0 auto;
   width: 60%;
 }
-.sec-title-wrapper {
-  width: 100%;
-}
-.sec-contain-wrapper {
-  width: 100%;
-}
-.result-wrapper {
-  display: flex;
-}
+/* .sec-title-wrapper { */
+/*   width: 100%; */
+/* } */
+/* .sec-contain-wrapper { */
+/*   width: 100%; */
+/* } */
+/* .result-wrapper { */
+/*   display: flex; */
+/* } */
 
 .result-content {
   width: 100px;
@@ -60,43 +60,43 @@ body {
 }
 */
 
-.sec-title {
-  display: inline-block;
-  position: relative;
-  height: 50px; /*リボンの高さ*/
-  line-height: 50px; /*リボンの高さ*/
-  text-align: center;
-  padding: 0 25px; /*横の大きさ*/
-  font-size: 18px; /*文字の大きさ*/
-  background: #26dd26; /*塗りつぶし色*/
-  color: #fff; /*文字色*/
-  box-sizing: border-box;
-}
+/* .sec-title { */
+/*   display: inline-block; */
+/*   position: relative; */
+/*   height: 50px; /\*リボンの高さ*\/ */
+/*   line-height: 50px; /\*リボンの高さ*\/ */
+/*   text-align: center; */
+/*   padding: 0 25px; /\*横の大きさ*\/ */
+/*   font-size: 18px; /\*文字の大きさ*\/ */
+/*   background: #26dd26; /\*塗りつぶし色*\/ */
+/*   color: #fff; /\*文字色*\/ */
+/*   box-sizing: border-box; */
+/* } */
 
-.sec-title:before,
-.sec-title:after {
-  position: absolute;
-  content: "";
-  width: 0px;
-  height: 0px;
-  z-index: 1;
-}
+/* .sec-title:before, */
+/* .sec-title:after { */
+/*   position: absolute; */
+/*   content: ""; */
+/*   width: 0px; */
+/*   height: 0px; */
+/*   z-index: 1; */
+/* } */
 
-.sec-title:before {
-  top: 0;
-  left: 0;
-  border-width: 25px 0px 25px 15px;
-  border-color: transparent transparent transparent #ffb681;
-  border-style: solid;
-}
+/* .sec-title:before { */
+/*   top: 0; */
+/*   left: 0; */
+/*   border-width: 25px 0px 25px 15px; */
+/*   border-color: transparent transparent transparent #ffb681; */
+/*   border-style: solid; */
+/* } */
 
-.sec-title:after {
-  top: 0;
-  right: 0;
-  border-width: 25px 15px 25px 0px;
-  border-color: transparent #ffb681 transparent transparent;
-  border-style: solid;
-}
+/* .sec-title:after { */
+/*   top: 0; */
+/*   right: 0; */
+/*   border-width: 25px 15px 25px 0px; */
+/*   border-color: transparent #ffb681 transparent transparent; */
+/*   border-style: solid; */
+/* } */
 
 /*button*/
 .replay a {

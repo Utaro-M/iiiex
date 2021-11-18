@@ -119,6 +119,58 @@ body {
 #your-rate {
   font-size: 50px;
 }
+.sec-title-wrapper {
+    position: relative;
+    width: 100%;
+    height:30vh;
+}
+.sec-contain-wrapper {
+  width: 100%;
+}
+.result-wrapper {
+  display: flex;
+}
+.sec-title {
+    /* display: inline-block; */
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 50px; /*リボンの高さ*/
+  line-height: 50px; /*リボンの高さ*/
+  text-align: center;
+  padding: 0 25px; /*横の大きさ*/
+  font-size: 18px; /*文字の大きさ*/
+  background: #26dd26; /*塗りつぶし色*/
+  color: #fff; /*文字色*/
+  box-sizing: border-box;
+}
+
+.sec-title:before,
+.sec-title:after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+
+.sec-title:before {
+  top: 0;
+  left: 0;
+  border-width: 25px 0px 25px 15px;
+  border-color: transparent transparent transparent #ffb681;
+  border-style: solid;
+}
+
+.sec-title:after {
+  top: 0;
+  right: 0;
+  border-width: 25px 15px 25px 0px;
+  border-color: transparent #ffb681 transparent transparent;
+  border-style: solid;
+}
 
 @media only screen and (max-width: 800px) {
   #your-rate {

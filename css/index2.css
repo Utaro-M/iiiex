@@ -64,7 +64,7 @@ body {
 .img-explanation-screen {
   max-width: 100%;
   /* width: 420px;  */
-  height: 520px;
+  height: 500px;
   animation-name: fade;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -74,7 +74,7 @@ body {
 .img-explanation-keyboard {
   max-width: 100%;
   /* width: 420px;  */
-  height: 220px;
+  height: 180px;
   animation-name: fade;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -153,7 +153,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin: 100px auto;
+  margin: 20px auto;
   padding: 1em 2em;
   width: 300px;
   color: #333;
